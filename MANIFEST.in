@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include adabox *.css
+recursive-include adabox *.csv
+recursive-include adabox *.html
+recursive-include adabox *.ico
+recursive-include adabox *.js
+recursive-include adabox *.json
+recursive-include adabox *.md
+recursive-include adabox *.png
+recursive-include adabox *.py
+recursive-include adabox *.svg
+recursive-include adabox *.txt
+recursive-exclude adabox *.pyc

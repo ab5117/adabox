@@ -42,7 +42,11 @@
   "hardware_tab",
   "info2",
   "testing_tab",
-  "info3"
+  "info3",
+  "technical_sector_tab",
+  "internal_tex",
+  "internal_tex2",
+  "internal_tex3"
  ],
  "fields": [
   {
@@ -241,11 +245,31 @@
    "fieldtype": "Select",
    "label": "Status job",
    "options": "New\nIn Progress\nIssue\nHold\nComplete"
+  },
+  {
+   "fieldname": "technical_sector_tab",
+   "fieldtype": "Tab Break",
+   "label": "Technical sector"
+  },
+  {
+   "fieldname": "internal_tex",
+   "fieldtype": "Long Text",
+   "label": "Internal tex"
+  },
+  {
+   "fieldname": "internal_tex2",
+   "fieldtype": "Long Text",
+   "label": "Internal tex"
+  },
+  {
+   "fieldname": "internal_tex3",
+   "fieldtype": "Long Text",
+   "label": "Internal tex"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-26 22:54:48.930904",
+ "modified": "2023-01-27 07:50:33.917757",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Repair Order",

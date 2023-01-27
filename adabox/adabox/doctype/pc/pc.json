@@ -39,7 +39,8 @@
   {
    "fieldname": "naming_series",
    "fieldtype": "Select",
-   "label": "Series"
+   "label": "Series",
+   "options": "PC-"
   },
   {
    "fieldname": "customer",
@@ -147,7 +148,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-27 11:34:17.165007",
+ "modified": "2023-01-27 19:35:00.838864",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "PC",

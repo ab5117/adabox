@@ -142,13 +142,13 @@
   },
   {
    "fieldname": "color",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Color"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-27 19:35:00.838864",
+ "modified": "2023-01-27 19:59:34.829443",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "PC",

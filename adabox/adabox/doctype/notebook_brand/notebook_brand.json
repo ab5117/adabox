@@ -9,7 +9,8 @@
  "engine": "InnoDB",
  "field_order": [
   "name1",
-  "link"
+  "link",
+  "info"
  ],
  "fields": [
   {
@@ -22,11 +23,16 @@
    "fieldname": "link",
    "fieldtype": "Data",
    "label": "Link"
+  },
+  {
+   "fieldname": "info",
+   "fieldtype": "Small Text",
+   "label": "info"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-27 19:42:31.011725",
+ "modified": "2023-01-27 20:08:53.759504",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Notebook Brand",

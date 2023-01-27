@@ -7,18 +7,110 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1"
+  "tarea_arealizar_con_el_equipos",
+  "recuperar_datos",
+  "instalar_sistema_operativo",
+  "isntalar_paquete_basico",
+  "column_break_87az5",
+  "office",
+  "adobe",
+  "programa_adicional",
+  "section_realizado",
+  "data_recover",
+  "se_isntalo_sistema",
+  "se_intalaron_programas_adicionales",
+  "column_break_d9ko8",
+  "si_pero",
+  "completar_si"
  ],
  "fields": [
   {
-   "fieldname": "name1",
+   "collapsible": 1,
+   "fieldname": "tarea_arealizar_con_el_equipos",
+   "fieldtype": "Section Break",
+   "label": "Tarea a realizar con el equipo"
+  },
+  {
+   "fieldname": "recuperar_datos",
+   "fieldtype": "Select",
+   "label": "Recuperar Datos",
+   "options": "\nSi\nNo"
+  },
+  {
+   "fieldname": "instalar_sistema_operativo",
+   "fieldtype": "Select",
+   "label": "Instalar Sistema Operativo",
+   "options": "\nWindows 7\nWindows 10\nWindows 11\nLinux Ubuntu\nNO INSTALAR, El cliente realiza la carga.\nEL Optimo para el equipo\nNo instalar sistema solo software"
+  },
+  {
+   "fieldname": "isntalar_paquete_basico",
+   "fieldtype": "Select",
+   "label": "Instalar Paquete B\u00e1sico",
+   "options": "\nSI\nNO!, el cliente quiere un sistema limpio"
+  },
+  {
+   "fieldname": "office",
+   "fieldtype": "Select",
+   "label": "Office",
+   "options": "\nSi\nNo"
+  },
+  {
+   "fieldname": "adobe",
+   "fieldtype": "Select",
+   "label": "Adobe",
+   "options": "\nSi\nNo"
+  },
+  {
+   "fieldname": "programa_adicional",
    "fieldtype": "Data",
-   "label": "name"
+   "label": "Programa Adicional --- >"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_realizado",
+   "fieldtype": "Section Break",
+   "label": "Completar con el trabajo realizado :"
+  },
+  {
+   "fieldname": "data_recover",
+   "fieldtype": "Select",
+   "label": "\u00bfSe recuperaron datos?",
+   "options": "\nSi\nNo"
+  },
+  {
+   "fieldname": "se_isntalo_sistema",
+   "fieldtype": "Select",
+   "label": "\u00bfSe Instal\u00f3 Sistema?",
+   "options": "\nSi\nNo, el cliente no lo requiere lo instala el mismo"
+  },
+  {
+   "fieldname": "se_intalaron_programas_adicionales",
+   "fieldtype": "Select",
+   "label": "\u00bfSe instalaron los programas adicionales ? ",
+   "options": "\nSi\nNo"
+  },
+  {
+   "fieldname": "si_pero",
+   "fieldtype": "Data",
+   "label": "Si instale pero me  falta este Programa -->"
+  },
+  {
+   "fieldname": "completar_si",
+   "fieldtype": "Small Text",
+   "label": "Completar si se encontr\u00f3 otra falla  -->"
+  },
+  {
+   "fieldname": "column_break_87az5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_d9ko8",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-27 19:43:29.605820",
+ "modified": "2023-01-27 20:22:55.463759",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Software",

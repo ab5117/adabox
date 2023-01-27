@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-01-26 19:41:03.729407",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
   "name1",
   "last_name",
   "email",
@@ -38,14 +40,21 @@
    "fieldname": "bio",
    "fieldtype": "Data",
    "label": "Bio"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "ST-"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-27 19:42:45.193803",
+ "modified": "2023-01-27 20:27:50.768074",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Staff",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

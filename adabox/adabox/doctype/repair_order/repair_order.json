@@ -1,0 +1,271 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-01-26 19:37:00.881229",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "pc",
+  "cusomer",
+  "assignee",
+  "column_break_6",
+  "creation_date",
+  "status",
+  "job_to_do_section",
+  "job1",
+  "job2",
+  "job3",
+  "job4",
+  "column_break_11",
+  "assigned_to_job",
+  "assigned_to_job2",
+  "assigned_to_job3",
+  "assigned_to_job4",
+  "column_break_12",
+  "status_job",
+  "status_job2",
+  "status_job3",
+  "status_job4",
+  "diagnosis_tab",
+  "diagnosis",
+  "equipo_enciende",
+  "funciona__la_pantalla",
+  "estado_de_la_pantalla",
+  "column_break_25",
+  "funciona_la_ficha_de_carga",
+  "software_tab",
+  "info",
+  "hardware_tab",
+  "info2",
+  "testing_tab",
+  "info3"
+ ],
+ "fields": [
+  {
+   "fieldname": "pc",
+   "fieldtype": "Link",
+   "label": "Pc",
+   "options": "PC"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "RO-"
+  },
+  {
+   "fieldname": "cusomer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "assignee",
+   "fieldtype": "Link",
+   "label": "Assignee",
+   "options": "Staff"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "New\nIn Progress\nHold\nDependency\nTesting\nCompleted"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "creation_date",
+   "fieldtype": "Date",
+   "label": "Creation date"
+  },
+  {
+   "fieldname": "job_to_do_section",
+   "fieldtype": "Section Break",
+   "label": "Job to do"
+  },
+  {
+   "fieldname": "assigned_to_job",
+   "fieldtype": "Link",
+   "label": "Assigned to job",
+   "options": "Staff"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status_job",
+   "fieldtype": "Select",
+   "label": "Status job",
+   "options": "New\nIn Progress\nIssue\nHold\nComplete"
+  },
+  {
+   "fieldname": "assigned_to_job2",
+   "fieldtype": "Link",
+   "label": "Assigenes to job",
+   "options": "Staff"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "job1",
+   "fieldtype": "Select",
+   "label": "Job 1",
+   "options": "\nDiagnosis"
+  },
+  {
+   "fieldname": "job2",
+   "fieldtype": "Select",
+   "label": "Job 2",
+   "options": "\nSoftware"
+  },
+  {
+   "fieldname": "job3",
+   "fieldtype": "Select",
+   "label": "Job 3",
+   "options": "\nHardware"
+  },
+  {
+   "fieldname": "assigned_to_job3",
+   "fieldtype": "Link",
+   "label": "Assigenes to job",
+   "options": "Staff"
+  },
+  {
+   "fieldname": "status_job2",
+   "fieldtype": "Select",
+   "label": "Status job",
+   "options": "New\nIn Progress\nIssue\nHold\nComplete"
+  },
+  {
+   "fieldname": "status_job3",
+   "fieldtype": "Select",
+   "label": "Status job",
+   "options": "New\nIn Progress\nIssue\nHold\nComplete"
+  },
+  {
+   "depends_on": "eval:doc.job1 == 'Diagnosis';",
+   "fieldname": "diagnosis_tab",
+   "fieldtype": "Tab Break",
+   "label": "Diagnosis"
+  },
+  {
+   "fieldname": "diagnosis",
+   "fieldtype": "Link",
+   "label": "Diagnosis",
+   "options": "Diagnosis"
+  },
+  {
+   "fetch_from": "diagnosis.equipo_enciende",
+   "fieldname": "equipo_enciende",
+   "fieldtype": "Data",
+   "label": "\u00bfEquipo enciende?"
+  },
+  {
+   "fetch_from": "diagnosis.funciona__la_pantalla",
+   "fieldname": "funciona__la_pantalla",
+   "fieldtype": "Data",
+   "label": "Funciona  la pantalla"
+  },
+  {
+   "fetch_from": "diagnosis.estado_de_la_pantalla",
+   "fieldname": "estado_de_la_pantalla",
+   "fieldtype": "Data",
+   "label": "Estado de la pantalla"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "diagnosis.funciona_la_ficha_de_carga",
+   "fieldname": "funciona_la_ficha_de_carga",
+   "fieldtype": "Data",
+   "label": "Funciona la ficha de carga"
+  },
+  {
+   "depends_on": "eval:doc.job2 == 'Software';",
+   "fieldname": "software_tab",
+   "fieldtype": "Tab Break",
+   "label": "Software"
+  },
+  {
+   "fieldname": "info",
+   "fieldtype": "Data",
+   "label": "info"
+  },
+  {
+   "depends_on": "eval:doc.job3 == 'Hardware';",
+   "fieldname": "hardware_tab",
+   "fieldtype": "Tab Break",
+   "label": "Hardware"
+  },
+  {
+   "fieldname": "info2",
+   "fieldtype": "Data",
+   "label": "info2"
+  },
+  {
+   "depends_on": "eval:doc.job4 == 'Testing';",
+   "fieldname": "testing_tab",
+   "fieldtype": "Tab Break",
+   "label": "Testing"
+  },
+  {
+   "fieldname": "info3",
+   "fieldtype": "Data",
+   "label": "info3"
+  },
+  {
+   "fieldname": "job4",
+   "fieldtype": "Select",
+   "label": "Job 4 ",
+   "options": "\nTesting"
+  },
+  {
+   "fieldname": "assigned_to_job4",
+   "fieldtype": "Link",
+   "label": "Assigenes to job",
+   "options": "Staff"
+  },
+  {
+   "fieldname": "status_job4",
+   "fieldtype": "Select",
+   "label": "Status job",
+   "options": "New\nIn Progress\nIssue\nHold\nComplete"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-26 22:54:48.930904",
+ "modified_by": "Administrator",
+ "module": "Adabox",
+ "name": "Repair Order",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-01-26 19:37:40.717934",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "pc",
+  "equipo_enciende",
+  "funciona__la_pantalla",
+  "estado_de_la_pantalla",
+  "column_break_6",
+  "funciona_la_ficha_de_carga",
+  "funciona_bateria",
+  "estado_de_bateria",
+  "funcionan_memorias",
+  "cantidad_de_memoria_ram_gb",
+  "frecuencia_de_la_memoria",
+  "funciona_el_disco_principal"
+ ],
+ "fields": [
+  {
+   "fieldname": "pc",
+   "fieldtype": "Link",
+   "label": "PC",
+   "options": "PC",
+   "unique": 1
+  },
+  {
+   "fieldname": "equipo_enciende",
+   "fieldtype": "Select",
+   "label": "\u00bfEquipo enciende?",
+   "options": "\nSi\nNo"
+  },
+  {
+   "fieldname": "funciona__la_pantalla",
+   "fieldtype": "Select",
+   "label": "Funciona  la pantalla",
+   "options": "\nSi\nNo\nNo pero es reparable\nNo tiene pantalla\nNo se puede probar"
+  },
+  {
+   "fieldname": "estado_de_la_pantalla",
+   "fieldtype": "Small Text",
+   "label": "Estado de la pantalla"
+  },
+  {
+   "fieldname": "funciona_la_ficha_de_carga",
+   "fieldtype": "Select",
+   "label": "Funciona la ficha de carga",
+   "options": "\nSi\nNo, requiere reemplazo\nNo tiene"
+  },
+  {
+   "fieldname": "funciona_bateria",
+   "fieldtype": "Select",
+   "label": "Funciona Bateria",
+   "options": "Si\nNo, requiere reemplazo\nNo se puede probar"
+  },
+  {
+   "fieldname": "estado_de_bateria",
+   "fieldtype": "Data",
+   "label": "Estado de bateria"
+  },
+  {
+   "fieldname": "funcionan_memorias",
+   "fieldtype": "Select",
+   "label": "Funcionan memorias",
+   "options": "\nSi\nNo\nNo tiene\nNo se puede probar"
+  },
+  {
+   "fieldname": "cantidad_de_memoria_ram_gb",
+   "fieldtype": "Select",
+   "label": " Cantidad de memoria RAM (GB)",
+   "options": "2\n4\n8\n16\n32\notro2\n4\n8\n16\n32\notro"
+  },
+  {
+   "fieldname": "frecuencia_de_la_memoria",
+   "fieldtype": "Select",
+   "label": "Frecuencia de la memoria",
+   "options": "\n667\n800\n1066\n1333\n1600\n1866\n2133\n2400\n2800\n3733"
+  },
+  {
+   "fieldname": "funciona_el_disco_principal",
+   "fieldtype": "Select",
+   "label": "\u00bfFunciona el disco principal?",
+   "options": "\nSi\nSi, el disco esta soldado\nSi, tiene falla de cable de disco\nSi, pero anda muy lento, se requiere cambio!\nNo se puede probar, falta password\nNo, esta da\u00f1ado, requiere reemplazo\nNo, tiene el disco soldado al logicboard\nFalta pieza"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "Diag-"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-26 22:34:43.164863",
+ "modified_by": "Administrator",
+ "module": "Adabox",
+ "name": "Diagnosis",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

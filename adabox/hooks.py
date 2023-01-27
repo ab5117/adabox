@@ -7,6 +7,10 @@ app_description = "Service app for Computer Service"
 app_email = "pablo@salvatumac.com.ar"
 app_license = "MIT"
 
+
+# Export Custom Field
+fixtures = ["Custom Field"]
+
 # Includes in <head>
 # ------------------
 

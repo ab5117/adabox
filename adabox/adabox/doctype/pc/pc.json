@@ -1,0 +1,175 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-01-26 19:35:49.872546",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "customer",
+  "serial",
+  "type",
+  "color",
+  "column_break_5",
+  "creation_date",
+  "notebook_brand",
+  "link_brand",
+  "pc_section",
+  "bla",
+  "notebook_section",
+  "inches",
+  "additional_information_section",
+  "notes",
+  "picture_column",
+  "pic1",
+  "picture2_column",
+  "pic2",
+  "repair_order_tab",
+  "repair_order"
+ ],
+ "fields": [
+  {
+   "fieldname": "serial",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer / Owner",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\nPc\nNotebook\nDisco\nOther"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "creation_date",
+   "fieldtype": "Date",
+   "label": "Creation date"
+  },
+  {
+   "depends_on": "eval:doc.type == 'Notebook';",
+   "fetch_from": "notebook_brand.link",
+   "fieldname": "link_brand",
+   "fieldtype": "Data",
+   "label": "Link brand"
+  },
+  {
+   "depends_on": "eval:doc.type == 'Pc';",
+   "fieldname": "pc_section",
+   "fieldtype": "Section Break",
+   "label": "Pc"
+  },
+  {
+   "depends_on": "eval:doc.type == 'Notebook';",
+   "fieldname": "notebook_section",
+   "fieldtype": "Section Break",
+   "label": "Notebook"
+  },
+  {
+   "fieldname": "inches",
+   "fieldtype": "Select",
+   "label": "inches",
+   "options": "\n10\n11\n12\n13\n15\n17\n21"
+  },
+  {
+   "fieldname": "repair_order_tab",
+   "fieldtype": "Tab Break",
+   "label": "Repair Order"
+  },
+  {
+   "fieldname": "repair_order",
+   "fieldtype": "Data",
+   "label": "Repair order"
+  },
+  {
+   "depends_on": "eval:doc.type == 'Notebook';",
+   "fieldname": "notebook_brand",
+   "fieldtype": "Link",
+   "label": "Notebook Brand",
+   "options": "Notebook Brand"
+  },
+  {
+   "fieldname": "bla",
+   "fieldtype": "Data",
+   "label": "bla"
+  },
+  {
+   "fieldname": "additional_information_section",
+   "fieldtype": "Section Break",
+   "label": "Additional Information"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Long Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "picture_column",
+   "fieldtype": "Column Break",
+   "label": "Picture"
+  },
+  {
+   "fieldname": "pic1",
+   "fieldtype": "Attach Image",
+   "label": "Pic1"
+  },
+  {
+   "fieldname": "picture2_column",
+   "fieldtype": "Column Break",
+   "label": "Picture2"
+  },
+  {
+   "fieldname": "pic2",
+   "fieldtype": "Attach Image",
+   "label": "Pic2"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Date",
+   "label": "Color"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-26 20:37:11.480946",
+ "modified_by": "Administrator",
+ "module": "Adabox",
+ "name": "PC",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

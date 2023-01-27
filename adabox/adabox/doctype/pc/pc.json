@@ -1,6 +1,4 @@
 {
- "_comments": "[]",
- "_liked_by": "[]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "naming_series:",
@@ -149,7 +147,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-26 20:37:11.480946",
+ "modified": "2023-01-27 11:34:17.165007",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "PC",
@@ -165,6 +163,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Technical",
    "share": 1,
    "write": 1
   }

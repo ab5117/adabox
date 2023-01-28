@@ -38,7 +38,7 @@
   "column_break_25",
   "funciona_la_ficha_de_carga",
   "software_tab",
-  "info",
+  "software",
   "hardware_tab",
   "info2",
   "testing_tab",
@@ -202,11 +202,6 @@
    "label": "Software"
   },
   {
-   "fieldname": "info",
-   "fieldtype": "Data",
-   "label": "info"
-  },
-  {
    "depends_on": "eval:doc.job3 == 'Hardware';",
    "fieldname": "hardware_tab",
    "fieldtype": "Tab Break",
@@ -265,11 +260,17 @@
    "fieldname": "internal_tex3",
    "fieldtype": "Long Text",
    "label": "Internal tex"
+  },
+  {
+   "fieldname": "software",
+   "fieldtype": "Link",
+   "label": "Software",
+   "options": "Software"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-27 11:33:24.077520",
+ "modified": "2023-01-27 20:32:49.566425",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Repair Order",

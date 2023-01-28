@@ -156,7 +156,6 @@
    "options": "New\nIn Progress\nIssue\nHold\nComplete"
   },
   {
-   "depends_on": "eval:doc.job1 == 'Diagnosis';",
    "fieldname": "diagnosis_tab",
    "fieldtype": "Tab Break",
    "label": "Diagnosis"
@@ -270,7 +269,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-27 20:32:49.566425",
+ "modified": "2023-01-28 20:08:57.284575",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Repair Order",

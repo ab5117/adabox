@@ -46,7 +46,8 @@
   "technical_sector_tab",
   "internal_tex",
   "internal_tex2",
-  "internal_tex3"
+  "internal_tex3",
+  "lulu"
  ],
  "fields": [
   {
@@ -265,11 +266,16 @@
    "fieldtype": "Link",
    "label": "Software",
    "options": "Software"
+  },
+  {
+   "fieldname": "lulu",
+   "fieldtype": "Data",
+   "label": "lulu"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-28 20:08:57.284575",
+ "modified": "2023-02-02 10:20:24.267251",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Repair Order",

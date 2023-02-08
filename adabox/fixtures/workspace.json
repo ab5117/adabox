@@ -347,7 +347,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-02-01 08:48:01.413230",
+  "modified": "2023-02-08 08:49:48.789851",
   "module": "Setup",
   "name": "Home",
   "parent_page": "",
@@ -1106,7 +1106,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.085331",
+  "modified": "2023-02-08 08:49:48.999753",
   "module": "CRM",
   "name": "CRM",
   "parent_page": "",
@@ -1114,7 +1114,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 7.0,
+  "sequence_id": 8.0,
   "shortcuts": [
    {
     "color": "Blue",
@@ -2233,7 +2233,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.324943",
+  "modified": "2023-02-08 08:49:49.249610",
   "module": "Selling",
   "name": "Selling",
   "parent_page": "",
@@ -2241,7 +2241,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 17.0,
+  "sequence_id": 18.0,
   "shortcuts": [
    {
     "color": "Grey",
@@ -3088,7 +3088,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.049306",
+  "modified": "2023-02-08 08:49:48.965075",
   "module": "Buying",
   "name": "Buying",
   "parent_page": "",
@@ -3096,7 +3096,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 6.0,
+  "sequence_id": 7.0,
   "shortcuts": [
    {
     "color": "Green",
@@ -3533,7 +3533,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.476922",
+  "modified": "2023-02-08 08:49:49.401673",
   "module": "Website",
   "name": "Website",
   "parent_page": "",
@@ -3541,7 +3541,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 22.0,
+  "sequence_id": 23.0,
   "shortcuts": [
    {
     "color": "Green",
@@ -3932,7 +3932,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.432761",
+  "modified": "2023-02-08 08:49:49.355846",
   "module": "Automation",
   "name": "Tools",
   "parent_page": "",
@@ -3940,7 +3940,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 20.0,
+  "sequence_id": 21.0,
   "shortcuts": [
    {
     "color": null,
@@ -4539,7 +4539,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.501691",
+  "modified": "2023-02-08 08:49:49.427138",
   "module": "Core",
   "name": "Settings",
   "parent_page": "",
@@ -4547,7 +4547,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 23.0,
+  "sequence_id": 24.0,
   "shortcuts": [
    {
     "color": null,
@@ -4814,7 +4814,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.455552",
+  "modified": "2023-02-08 08:49:49.379277",
   "module": "Core",
   "name": "Users",
   "parent_page": "",
@@ -4822,7 +4822,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 21.0,
+  "sequence_id": 22.0,
   "shortcuts": [
    {
     "color": null,
@@ -5101,7 +5101,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.117197",
+  "modified": "2023-02-08 08:49:49.031946",
   "module": "Custom",
   "name": "Customization",
   "parent_page": "",
@@ -5109,7 +5109,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 8.0,
+  "sequence_id": 9.0,
   "shortcuts": [
    {
     "color": null,
@@ -5470,7 +5470,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.175755",
+  "modified": "2023-02-08 08:49:49.090458",
   "module": "Integrations",
   "name": "Integrations",
   "parent_page": "",
@@ -5478,7 +5478,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 11.0,
+  "sequence_id": 12.0,
   "shortcuts": [],
   "title": "Integrations"
  },
@@ -7134,7 +7134,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:46.950085",
+  "modified": "2023-02-08 08:49:48.865260",
   "module": "Accounts",
   "name": "Accounting",
   "parent_page": "",
@@ -7142,7 +7142,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 3.0,
+  "sequence_id": 4.0,
   "shortcuts": [
    {
     "color": null,
@@ -8349,7 +8349,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.368433",
+  "modified": "2023-02-08 08:49:49.292404",
   "module": "Stock",
   "name": "Stock",
   "parent_page": "",
@@ -8357,7 +8357,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 18.0,
+  "sequence_id": 19.0,
   "shortcuts": [
    {
     "color": "Green",
@@ -8750,7 +8750,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.002865",
+  "modified": "2023-02-08 08:49:48.917584",
   "module": "Assets",
   "name": "Assets",
   "parent_page": "",
@@ -8758,7 +8758,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 4.0,
+  "sequence_id": 5.0,
   "shortcuts": [
    {
     "color": null,
@@ -9111,7 +9111,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.255269",
+  "modified": "2023-02-08 08:49:49.180646",
   "module": "Projects",
   "name": "Projects",
   "parent_page": "",
@@ -9119,7 +9119,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 14.0,
+  "sequence_id": 15.0,
   "shortcuts": [
    {
     "color": "Blue",
@@ -9462,7 +9462,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.411354",
+  "modified": "2023-02-08 08:49:49.334353",
   "module": "Support",
   "name": "Support",
   "parent_page": "",
@@ -9470,7 +9470,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 19.0,
+  "sequence_id": 20.0,
   "shortcuts": [
    {
     "color": "Yellow",
@@ -9737,7 +9737,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.280005",
+  "modified": "2023-02-08 08:49:49.207698",
   "module": "Quality Management",
   "name": "Quality",
   "parent_page": "",
@@ -9745,7 +9745,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 15.0,
+  "sequence_id": 16.0,
   "shortcuts": [
    {
     "color": "Grey",
@@ -10454,7 +10454,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.222824",
+  "modified": "2023-02-08 08:49:49.142845",
   "module": "Manufacturing",
   "name": "Manufacturing",
   "parent_page": "",
@@ -10462,7 +10462,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 13.0,
+  "sequence_id": 14.0,
   "shortcuts": [
    {
     "color": "Grey",
@@ -10721,7 +10721,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.304632",
+  "modified": "2023-02-08 08:49:49.229099",
   "module": "Selling",
   "name": "Retail",
   "parent_page": "",
@@ -10729,7 +10729,7 @@
   "quick_lists": [],
   "restrict_to_domain": "Retail",
   "roles": [],
-  "sequence_id": 16.0,
+  "sequence_id": 17.0,
   "shortcuts": [
    {
     "color": null,
@@ -11112,7 +11112,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.197401",
+  "modified": "2023-02-08 08:49:49.114196",
   "module": "Loan Management",
   "name": "Loans",
   "parent_page": "",
@@ -11120,7 +11120,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 12.0,
+  "sequence_id": 13.0,
   "shortcuts": [
    {
     "color": "Green",
@@ -11307,7 +11307,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.138046",
+  "modified": "2023-02-08 08:49:49.052965",
   "module": "ERPNext Integrations",
   "name": "ERPNext Integrations",
   "parent_page": "",
@@ -11315,7 +11315,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 9.0,
+  "sequence_id": 10.0,
   "shortcuts": [],
   "title": "ERPNext Integrations"
  },
@@ -11379,7 +11379,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.528416",
+  "modified": "2023-02-08 08:49:49.453595",
   "module": "Utilities",
   "name": "Utilities",
   "parent_page": "",
@@ -11387,7 +11387,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 24.0,
+  "sequence_id": 25.0,
   "shortcuts": [],
   "title": "Utilities"
  },
@@ -11819,7 +11819,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-01-27 20:58:47.023953",
+  "modified": "2023-02-08 08:49:48.939836",
   "module": "Core",
   "name": "Build",
   "parent_page": "",
@@ -11827,7 +11827,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 5.0,
+  "sequence_id": 6.0,
   "shortcuts": [
    {
     "color": null,
@@ -11885,7 +11885,7 @@
   "is_hidden": 0,
   "label": "ERPNext Settings",
   "links": [],
-  "modified": "2023-01-27 20:58:47.156245",
+  "modified": "2023-02-08 08:49:49.070935",
   "module": "Setup",
   "name": "ERPNext Settings",
   "parent_page": "",
@@ -11893,7 +11893,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 10.0,
+  "sequence_id": 11.0,
   "shortcuts": [
    {
     "color": null,
@@ -12054,7 +12054,7 @@
  },
  {
   "charts": [],
-  "content": "[{\"id\":\"RrrqKxv-G2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SalvaTuPc</span>\",\"col\":12}},{\"id\":\"YqI3cwZZjZ\",\"type\":\"card\",\"data\":{\"card_name\":\"Inicio\",\"col\":4}},{\"id\":\"fIx9g-cYeP\",\"type\":\"card\",\"data\":{\"card_name\":\"Worksheets\",\"col\":4}}]",
+  "content": "[{\"id\":\"RrrqKxv-G2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SalvaTuPc</span>\",\"col\":12}},{\"id\":\"YqI3cwZZjZ\",\"type\":\"card\",\"data\":{\"card_name\":\"Inicio\",\"col\":3}},{\"id\":\"fIx9g-cYeP\",\"type\":\"card\",\"data\":{\"card_name\":\"Worksheets\",\"col\":3}},{\"id\":\"Sa8YKYwbiP\",\"type\":\"card\",\"data\":{\"card_name\":\"Staff\",\"col\":3}},{\"id\":\"u5nCpo8g_w\",\"type\":\"card\",\"data\":{\"card_name\":\"Singles\",\"col\":3}}]",
   "docstatus": 0,
   "doctype": "Workspace",
   "for_user": "",
@@ -12222,9 +12222,73 @@
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Staff",
+    "link_count": 1,
+    "link_to": null,
+    "link_type": null,
+    "onboard": 0,
+    "only_for": null,
+    "parent": "SalvaTuPc",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Staff",
+    "link_count": 0,
+    "link_to": "Staff",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "SalvaTuPc",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Singles",
+    "link_count": 1,
+    "link_to": null,
+    "link_type": null,
+    "onboard": 0,
+    "only_for": null,
+    "parent": "SalvaTuPc",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Notebook Brand",
+    "link_count": 0,
+    "link_to": "Notebook Brand",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "SalvaTuPc",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
    }
   ],
-  "modified": "2023-02-08 08:30:36.766313",
+  "modified": "2023-02-08 08:49:48.834275",
   "module": null,
   "name": "SalvaTuPc",
   "parent_page": "",
@@ -12232,8 +12296,112 @@
   "quick_lists": [],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 25.0,
+  "sequence_id": 2.0,
   "shortcuts": [],
   "title": "SalvaTuPc"
+ },
+ {
+  "charts": [],
+  "content": "[{\"id\":\"QCpPAo3gNJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">STP Compras</span>\",\"col\":12}},{\"id\":\"LPgiQwMM8g\",\"type\":\"card\",\"data\":{\"card_name\":\"Buying\",\"col\":4}}]",
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "income",
+  "is_hidden": 0,
+  "label": "STP Compras",
+  "links": [
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Buying",
+    "link_count": 4,
+    "link_to": null,
+    "link_type": null,
+    "onboard": 0,
+    "only_for": null,
+    "parent": "STP Compras",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Supplier",
+    "link_count": 0,
+    "link_to": "Supplier",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "STP Compras",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Item",
+    "link_count": 0,
+    "link_to": "Item",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "STP Compras",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Item Group",
+    "link_count": 0,
+    "link_to": "Item Group",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "STP Compras",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Item Price",
+    "link_count": 0,
+    "link_to": "Item Price",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "STP Compras",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   }
+  ],
+  "modified": "2023-02-08 08:55:09.914378",
+  "module": null,
+  "name": "STP Compras",
+  "parent_page": "SalvaTuPc",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 3.0,
+  "shortcuts": [],
+  "title": "STP Compras"
  }
 ]

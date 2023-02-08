@@ -9,8 +9,8 @@
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
-  "pc",
-  "cusomer",
+  "device",
+  "customer",
   "assignee",
   "column_break_6",
   "creation_date",
@@ -51,22 +51,10 @@
  ],
  "fields": [
   {
-   "fieldname": "pc",
-   "fieldtype": "Link",
-   "label": "Pc",
-   "options": "Device"
-  },
-  {
    "fieldname": "naming_series",
    "fieldtype": "Select",
    "label": "Series",
    "options": "RO-"
-  },
-  {
-   "fieldname": "cusomer",
-   "fieldtype": "Link",
-   "label": "Customer",
-   "options": "Customer"
   },
   {
    "fieldname": "assignee",
@@ -271,11 +259,24 @@
    "fieldname": "lulu",
    "fieldtype": "Data",
    "label": "lulu"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "device",
+   "fieldtype": "Link",
+   "label": "Device",
+   "options": "Device"
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2023-02-08 08:14:55.654251",
+ "modified": "2023-02-08 10:35:17.889601",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Repair Order",
@@ -308,5 +309,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }

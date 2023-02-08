@@ -54,7 +54,7 @@
    "fieldname": "pc",
    "fieldtype": "Link",
    "label": "Pc",
-   "options": "PC"
+   "options": "Device"
   },
   {
    "fieldname": "naming_series",
@@ -275,7 +275,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-02 10:20:24.267251",
+ "modified": "2023-02-08 08:14:55.654251",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Repair Order",

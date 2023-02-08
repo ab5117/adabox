@@ -27,7 +27,7 @@
    "fieldname": "pc",
    "fieldtype": "Link",
    "label": "PC",
-   "options": "PC",
+   "options": "Device",
    "unique": 1
   },
   {
@@ -101,7 +101,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-27 11:34:33.104679",
+ "modified": "2023-02-08 08:21:48.228312",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Diagnosis",

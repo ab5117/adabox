@@ -9,7 +9,7 @@ app_license = "MIT"
 
 
 # Export Custom Field
-fixtures = ["Custom Field","Web Form","Website Settings"]
+fixtures = ["Custom Field","Web Form","Website Settings","Workspace","Customer", "Lead"]
 
 # Includes in <head>
 # ------------------

@@ -151,7 +151,7 @@
  "modified": "2023-01-27 19:59:34.829443",
  "modified_by": "Administrator",
  "module": "Adabox",
- "name": "PC",
+ "name": "Device",
  "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [

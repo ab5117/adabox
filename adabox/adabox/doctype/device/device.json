@@ -43,7 +43,7 @@
    "fieldname": "naming_series",
    "fieldtype": "Select",
    "label": "Series",
-   "options": "DV-"
+   "options": "DEV-"
   },
   {
    "allow_in_quick_entry": 1,
@@ -68,11 +68,13 @@
   },
   {
    "allow_in_quick_entry": 1,
+   "default": "Now",
    "fieldname": "creation_date",
-   "fieldtype": "Date",
+   "fieldtype": "Datetime",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Creation date",
+   "read_only": 1,
    "reqd": 1
   },
   {
@@ -161,7 +163,7 @@
    "link_fieldname": "device"
   }
  ],
- "modified": "2023-02-08 10:30:51.610351",
+ "modified": "2023-02-09 07:09:35.012269",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Device",
@@ -194,7 +196,8 @@
   }
  ],
  "quick_entry": 1,
- "search_fields": "serial, creation_date",
+ "search_fields": "type, serial, creation_date",
+ "show_name_in_global_search": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

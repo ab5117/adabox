@@ -73,9 +73,11 @@
    "fieldtype": "Column Break"
   },
   {
+   "default": "Now",
    "fieldname": "creation_date",
-   "fieldtype": "Date",
-   "label": "Creation date"
+   "fieldtype": "Datetime",
+   "label": "Creation date",
+   "read_only": 1
   },
   {
    "fieldname": "job_to_do_section",
@@ -276,7 +278,7 @@
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2023-02-08 10:35:17.889601",
+ "modified": "2023-02-09 07:11:36.417617",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Repair Order",

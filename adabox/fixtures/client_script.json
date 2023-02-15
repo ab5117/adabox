@@ -24,12 +24,34 @@
  {
   "docstatus": 0,
   "doctype": "Client Script",
-  "dt": "Lead",
+  "dt": "Customer",
   "enabled": 1,
-  "modified": "2023-02-10 08:53:05.542086",
+  "modified": "2023-02-15 00:39:52.921663",
   "module": "Adabox",
-  "name": "Lead create sales order",
-  "script": "frappe.ui.form.on(\"Lead\", {\r\n\trefresh: function(frm) {\r\n\t\tfrm.add_custom_button(__(\"Crear Sales Order\"), function() {\r\n\t\t\tfrappe.route_options = {\r\n\t\t\t\t\"lead_name\": frm.doc.lead_name\r\n\t\t\t};\r\n\t\t\tfrappe.new_doc(\"Sales Order\");\r\n\t\t}, __(\"Create\"));\r\n\t}\r\n});",
+  "name": "Customer make device",
+  "script": "frappe.ui.form.on(\"Customer\", {\r\n\trefresh: function(frm) {\r\n\t\tfrm.add_custom_button(__(\"New Device\"), function() {\r\n\t\t\tfrappe.route_options = {\r\n\t\t\t\t\"customer\": frm.doc.customer_name,\r\n\t\t\t\t\"serial\": frm.doc.serial,\r\n\t\t\t};\r\n\t\t\tfrappe.set_route(\"device\", \"new-device\");\r\n\t\t\t\r\n\t\t}, __(\"Create\"));\r\n\t}\r\n});",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Device",
+  "enabled": 0,
+  "modified": "2023-02-15 01:18:35.410010",
+  "module": "Adabox",
+  "name": "Device Make sales order",
+  "script": "frappe.ui.form.on(\"Device\", {\n\trefresh: function(frm) {\n\t\tfrm.add_custom_button(__(\"New Sales Order\"), function() {\n\t\t\tfrappe.route_options = {\n\t\t\t\t\"customer\": frm.doc.customer,\n\t\t\t\t\"device\": frm.doc.device,\n\t\t\t};\n\t\t\tfrappe.set_route(\"sales-order\", \"new-sales-order\");\n\t\t\t\n\t\t}, __(\"Create\"));\n\t}\n});",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Workspace",
+  "enabled": 0,
+  "modified": "2023-02-15 07:22:55.589670",
+  "module": null,
+  "name": "Workspace button",
+  "script": "frappe.ui.form.on(\"Workspace\", {\n\trefresh: function(frm) {\n\t\tfrm.add_custom_button(__(\"New Device\"), function() {\n\t\t\tfrappe.route_options = {\n\t\t\t\t\"customer\": frm.doc.customer_name,\n\t\t\t\t\"serial\": frm.doc.serial,\n\t\t\t};\n\t\t\tfrappe.set_route(\"device\", \"new-device\");\n\t\t\t\n\t\t}, __(\"Create\"));\n\t}\n});",
   "view": "Form"
  }
 ]

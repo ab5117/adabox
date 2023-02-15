@@ -10,11 +10,13 @@
  "field_order": [
   "naming_series",
   "device",
+  "serial",
   "customer",
   "assignee",
   "column_break_6",
   "creation_date",
   "status",
+  "sales_order",
   "job_to_do_section",
   "job1",
   "job2",
@@ -273,12 +275,24 @@
    "fieldtype": "Link",
    "label": "Device",
    "options": "Device"
+  },
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "label": "Sales Order",
+   "options": "Sales Order"
+  },
+  {
+   "fetch_from": "device.serial",
+   "fieldname": "serial",
+   "fieldtype": "Data",
+   "label": "Serial",
+   "read_only": 1
   }
  ],
- "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2023-02-09 07:11:36.417617",
+ "modified": "2023-02-15 01:57:13.140751",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Repair Order",
@@ -309,8 +323,12 @@
    "write": 1
   }
  ],
+ "search_fields": "customer,serial,sales_order",
+ "show_name_in_global_search": 1,
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "naming_series",
  "track_changes": 1
 }

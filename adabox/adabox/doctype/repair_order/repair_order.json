@@ -15,6 +15,7 @@
   "assignee",
   "column_break_6",
   "creation_date",
+  "due_date",
   "status",
   "sales_order",
   "job_to_do_section",
@@ -61,6 +62,8 @@
   {
    "fieldname": "assignee",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Assignee",
    "options": "Staff"
   },
@@ -267,12 +270,16 @@
   {
    "fieldname": "customer",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Customer",
    "options": "Customer"
   },
   {
    "fieldname": "device",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Device",
    "options": "Device"
   },
@@ -286,13 +293,23 @@
    "fetch_from": "device.serial",
    "fieldname": "serial",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Serial",
    "read_only": 1
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Due date",
+   "reqd": 1
   }
  ],
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2023-02-15 01:57:13.140751",
+ "modified": "2023-02-16 08:45:52.049162",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Repair Order",
@@ -325,10 +342,8 @@
  ],
  "search_fields": "customer,serial,sales_order",
  "show_name_in_global_search": 1,
- "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "naming_series",
  "track_changes": 1
 }

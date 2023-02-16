@@ -25,8 +25,12 @@
   "notes",
   "picture_column",
   "pic1",
+  "pi3",
+  "pic5",
   "picture2_column",
   "pic2",
+  "pic4",
+  "pic6",
   "dashboard"
  ],
  "fields": [
@@ -60,7 +64,7 @@
    "fieldname": "type",
    "fieldtype": "Select",
    "label": "Type",
-   "options": "\nPc\nNotebook\nDisco\nOther"
+   "options": "\nPc\nAll in one\nNotebook\nDisco\nOther"
   },
   {
    "fieldname": "column_break_5",
@@ -153,6 +157,26 @@
    "fieldname": "dashboard",
    "fieldtype": "Tab Break",
    "label": "Dashboard"
+  },
+  {
+   "fieldname": "pi3",
+   "fieldtype": "Attach Image",
+   "label": "Pic3"
+  },
+  {
+   "fieldname": "pic4",
+   "fieldtype": "Attach Image",
+   "label": "Pic4"
+  },
+  {
+   "fieldname": "pic5",
+   "fieldtype": "Attach Image",
+   "label": "Pic5"
+  },
+  {
+   "fieldname": "pic6",
+   "fieldtype": "Attach Image",
+   "label": "Pic6"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -168,7 +192,7 @@
    "link_fieldname": "device"
   }
  ],
- "modified": "2023-02-15 01:17:40.193475",
+ "modified": "2023-02-16 08:30:42.789723",
  "modified_by": "Administrator",
  "module": "Adabox",
  "name": "Device",

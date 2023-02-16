@@ -12,7 +12,6 @@ app_license = "MIT"
 fixtures = ["Custom Field","Workspace","Client Script"]
 
 
-
 # Includes in <head>
 # ------------------
 

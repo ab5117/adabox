@@ -9,7 +9,7 @@ app_license = "MIT"
 
 
 # Export Custom Field
-# fixtures = ["Custom Field","Workspace","Client Script"]
+fixtures = ["Custom Field","Workspace","Client Script"]
 
 
 # Includes in <head>
